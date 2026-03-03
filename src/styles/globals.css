@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --navy: #0A192F;
+  --navy-light: #112240;
+  --navy-lighter: #1d3461;
+  --aqua: #64FFDA;
+  --aqua-electric: #00E5FF;
+  --aqua-dim: #3DBFA8;
+  --slate: #8892B0;
+  --slate-light: #CCD6F6;
+  --slate-lightest: #E6F1FF;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--navy);
+  color: var(--slate-lightest);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--navy);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--navy-lighter);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--aqua-dim);
+}
+
+/* Selection */
+::selection {
+  background-color: rgba(100, 255, 218, 0.2);
+  color: var(--aqua);
+}
+
+/* Focus ring */
+:focus-visible {
+  outline: 2px solid var(--aqua);
+  outline-offset: 4px;
+}
+
+/* Fluid typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+/* Grid noise overlay utility */
+.noise-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Aqua glow text */
+.glow-text {
+  text-shadow: 0 0 40px rgba(100, 255, 218, 0.4);
+}
+
+/* Shimmer animation for loading/decorative elements */
+.shimmer-text {
+  background: linear-gradient(
+    90deg,
+    #64FFDA 0%,
+    #00E5FF 30%,
+    #64FFDA 60%,
+    #64FFDA 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 3s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% center; }
+  100% { background-position: -200% center; }
+}
+
+/* Fluid flow gradient background */
+.fluid-bg {
+  background: linear-gradient(
+    135deg,
+    #0A192F 0%,
+    #0d2137 30%,
+    #0A192F 60%,
+    #071525 100%
+  );
+  background-size: 400% 400%;
+  animation: flow 12s ease-in-out infinite;
+}
+
+@keyframes flow {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Card hover glow effect */
+.card-glow {
+  position: relative;
+  transition: transform 0.3s ease;
+}
+.card-glow::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(100,255,218,0.15), transparent, rgba(0,229,255,0.1));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: -1;
+}
+.card-glow:hover::after {
+  opacity: 1;
+}
+.card-glow:hover {
+  transform: translateY(-4px);
+}
