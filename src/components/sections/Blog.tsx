@@ -8,7 +8,7 @@ import { useParams } from "next/navigation";
 import { ArrowRight } from "lucide-react";
 
 export default function Blog() {
-  const t = useTranslations("blog");
+  const { t } = useLanguage();
   const params = useParams();
   const locale = params?.locale ?? "en";
   const ref = useRef(null);
@@ -31,7 +31,7 @@ export default function Blog() {
             — Insights —
           </span>
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-slate-lightest mb-4">
-            {t("title")}
+            {t('hero.title')}
           </h2>
           <p className="max-w-xl mx-auto text-slate-text text-lg">{t("subtitle")}</p>
         </motion.div>
