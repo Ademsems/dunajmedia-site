@@ -46,7 +46,7 @@ const WaveForm = () => (
 );
 
 export default function Hero() {
-  const t = useTranslations("hero");
+  const { t } = useLanguage();
   const params = useParams();
   const locale = params?.locale ?? "en";
   const containerRef = useRef<HTMLDivElement>(null);
