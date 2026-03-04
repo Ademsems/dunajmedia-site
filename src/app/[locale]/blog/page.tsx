@@ -1,18 +1,11 @@
-import { getTranslations } from "next-intl/server";
-import type { Metadata } from "next";
-import Blog from "@/components/sections/Blog";
-import ContactForm from "@/components/sections/ContactForm";
+import { unstable_setRequestLocale } from 'next-intl/server';
 
-export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const t = await getTranslations({ locale, namespace: "blog" });
-  return { title: t("title"), description: t("subtitle") };
-}
-
-export default function BlogPage() {
+export default function BlogPage({ params: { locale } }: { params: { locale: string } }) {
+  unstable_setRequestLocale(locale);
   return (
-    <div className="pt-16">
-      <Blog />
-      <ContactForm />
-    </div>
+    <main className="pt-32 pb-20 px-6 max-w-7xl mx-auto">
+      <h1 className="text-4xl font-bold text-white">Digital Insights</h1>
+      <p className="text-slate-400 mt-4">Blog posts coming soon.</p>
+    </main>
   );
 }
