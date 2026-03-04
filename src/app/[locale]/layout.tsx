@@ -6,7 +6,6 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
 const inter = Inter({ subsets: ['latin'] });
-
 const locales = ['en', 'sk'] as const;
 
 export function generateStaticParams() {
@@ -20,7 +19,7 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  unstable_setRequestLocale(locale);
+  unstable_setRequestLocale(locale); // CRITICAL: This must be here
   const messages = await getMessages();
 
   return (
