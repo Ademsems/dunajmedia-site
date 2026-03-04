@@ -7,10 +7,14 @@ import { useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Globe } from "lucide-react";
 
-const navKeys = ["home", "services", "about", "blog", "contact"] as const;
+// Added 'pricing' to the navKeys array
+const navKeys = ["home", "services", "pricing", "about", "blog", "contact"] as const;
+
+// Added the pricing route to the mapping
 const navHrefs: Record<string, string> = {
   home: "/",
   services: "/#services",
+  pricing: "/pricing",
   about: "/#about",
   blog: "/blog",
   contact: "/#contact",
