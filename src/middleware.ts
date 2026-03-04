@@ -8,5 +8,8 @@ export default createMiddleware({
 });
 
 export const config = {
-  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)'],
+  // This tells Vercel which pages to run the language logic on
+  matcher: [
+    '/((?!api|_next/static|_next/image|favicon.ico|hero-video.mp4|.*\\..*).*)' ,
+  ],
 };
