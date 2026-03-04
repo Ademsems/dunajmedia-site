@@ -18,7 +18,7 @@ const cardVariants = {
 };
 
 export default function Services() {
-  const t = useTranslations("services");
+  const { t } = useLanguage();
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
@@ -47,7 +47,7 @@ export default function Services() {
             — What we do —
           </span>
           <h2 className="font-display text-4xl sm:text-5xl md:text-6xl font-bold text-slate-lightest mb-4">
-            {t("title")}
+            {t('services.title')}
           </h2>
           <p className="max-w-xl mx-auto text-slate-text text-lg">{t("subtitle")}</p>
         </motion.div>
