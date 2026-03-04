@@ -31,7 +31,7 @@ export default function Blog() {
             — Insights —
           </span>
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-slate-lightest mb-4">
-            {t('hero.title')}
+            {t('Blog.title')}
           </h2>
           <p className="max-w-xl mx-auto text-slate-text text-lg">{t("subtitle")}</p>
         </motion.div>
