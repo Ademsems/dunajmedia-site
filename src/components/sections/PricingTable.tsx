@@ -8,14 +8,14 @@ import Link from "next/link";
 const tierKeys = ["tier1", "tier2", "tier3"] as const;
 
 export default function PricingTable() {
-  const t = useTranslations("pricing");
+  const { t } = useLanguage();
 
   return (
     <section className="py-24 bg-navy relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-display font-bold text-slate-lightest mb-4">
-            {t("title")}
+            {t('pricingtable.title')}
           </h1>
           <p className="text-slate-text text-lg max-w-2xl mx-auto">
             {t("subtitle")}
