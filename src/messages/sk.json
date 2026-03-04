@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "siteName": "Dunajmedia",
+    "siteDescription": "Marketingová agentúra Bratislava — tvorba web stránok, správa sociálnych sietí, optimalizácia pre AI a rast online podnikania.",
+    "keywords": "tvorba web stránok, správa sociálnych sietí, marketingová agentúra Bratislava, optimalizácia pre AI, digitálny marketing Slovensko"
+  },
+  "nav": {
+    "home": "Domov",
+    "services": "Služby",
+    "about": "O nás",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "getStarted": "Začnite teraz"
+  },
+  "hero": {
+    "tagline": "Digitálny prúd",
+    "headline": "Budujeme značky, ktoré pretrvajú",
+    "subheadline": "Marketingová agentúra v Bratislave — tvorba web stránok, AI optimalizácia a správa sociálnych sietí pre skutočný rast.",
+    "cta": "Začnite cestu",
+    "ctaSecondary": "Naše práce",
+    "scrollHint": "Scrollujte dolu"
+  },
+  "services": {
+    "title": "Čo robíme",
+    "subtitle": "Od konceptu po konverziu — komplexné digitálne služby pre rast vášho podnikania.",
+    "web": {
+      "title": "Tvorba web stránok",
+      "description": "Výkonné webové stránky a aplikácie postavené na najmodernejších technológiách. Next.js, headless CMS, bleskurýchle načítanie.",
+      "items": ["Webové aplikácie", "E-commerce", "Headless CMS", "Optimalizácia výkonu"]
+    },
+    "social": {
+      "title": "Správa sociálnych sietí",
+      "description": "Strategická tvorba obsahu a správa komunity na všetkých platformách. Dátami riadené kampane pre autentické zapojenie.",
+      "items": ["Obsahová stratégia", "Správa komunity", "Platená reklama", "Analytika"]
+    },
+    "seo": {
+      "title": "Optimalizácia pre AI",
+      "description": "SEO novej generácie poháňané AI analýzou. Optimalizujeme pre vyhľadávače aj AI asistentov — budúcnosť objavovania.",
+      "items": ["Technické SEO", "Optimalizácia obsahu", "AI viditeľnosť", "Budovanie odkazov"]
+    },
+    "growth": {
+      "title": "Rastový marketing",
+      "description": "Kompletná rastová stratégia pre Bratislavu a zahraničie. Kombinujeme dáta, kreativitu a technológie.",
+      "items": ["Rastová stratégia", "Optimalizácia konverzií", "Email marketing", "Analytika výkonu"]
+    }
+  },
+  "about": {
+    "title": "O Dunajmedia",
+    "subtitle": "Zrodení na brehoch Dunaja. Stvorení pre digitálnu éru.",
+    "body": "Dunajmedia je bratislavská digitálna agentúra kombinujúca hlboké miestne znalosti so svetovými digitálnymi expertízami. Ako Dunaj pretekajúci naším mestom, prinášame konzistentnú hybnosť — merateľné výsledky pre ambiciózne značky.",
+    "stats": {
+      "clients": "Klientov",
+      "projects": "Projektov",
+      "years": "Rokov skúseností",
+      "countries": "Krajín"
+    }
+  },
+  "blog": {
+    "title": "Prehľady a trendy",
+    "subtitle": "Najnovšie poznatky z digitálneho marketingu, webových technológií a rastovej stratégie.",
+    "readMore": "Čítať článok",
+    "posts": [
+      {
+        "title": "AI SEO: Ako optimalizovať pre ChatGPT a Google AI",
+        "excerpt": "Krajina vyhľadávania sa mení. Takto zostanete viditeľní v AI-first svete.",
+        "date": "2024-07-15",
+        "tag": "SEO"
+      },
+      {
+        "title": "Prečo slovenské značky potrebujú digital-first stratégiu",
+        "excerpt": "Lokálne trhy idú globálne. Digitálna infraštruktúra nie je voliteľná.",
+        "date": "2024-07-08",
+        "tag": "Stratégia"
+      },
+      {
+        "title": "Anatómia vysoko konvertujúcej landing page",
+        "excerpt": "Analyzovali sme 500 landing pages. Tu je to, čo skutočne konvertuje.",
+        "date": "2024-07-01",
+        "tag": "Web"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Začnime rozhovor",
+    "subtitle": "Povedzte nám o svojom projekte. Odpovieme do 24 hodín.",
+    "form": {
+      "name": "Vaše meno",
+      "email": "Emailová adresa",
+      "company": "Firma (nepovinné)",
+      "service": "Záujem o službu",
+      "message": "Povedzte nám o svojom projekte",
+      "submit": "Odoslať správu",
+      "sending": "Odosielam...",
+      "success": "Správa odoslaná! Ozveme sa do 24 hodín.",
+      "error": "Niečo sa pokazilo. Skúste znova.",
+      "services": ["Tvorba web stránok", "Správa sociálnych sietí", "AI Optimalizácia", "Rastový marketing", "Kompletný balíček"]
+    },
+    "info": {
+      "location": "Bratislava, Slovensko",
+      "email": "hello@dunajmedia.sk",
+      "phone": "+421 900 000 000"
+    }
+  },
+  "footer": {
+    "tagline": "Digitálny prúd. Skutočné výsledky.",
+    "rights": "Všetky práva vyhradené.",
+    "privacy": "Ochrana osobných údajov",
+    "terms": "Podmienky použitia"
+  }
+}
