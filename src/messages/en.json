@@ -1,110 +1,28 @@
 {
-  "meta": {
-    "siteName": "Dunajmedia",
-    "siteDescription": "Digital marketing agency Slovakia — web development services, social media management, growth marketing Bratislava, AI-driven SEO.",
-    "keywords": "digital marketing agency Slovakia, web development services, social media management, growth marketing Bratislava, AI-driven SEO"
-  },
-  "nav": {
-    "home": "Home",
-    "services": "Services",
-    "about": "About",
-    "blog": "Blog",
-    "contact": "Contact",
-    "getStarted": "Get Started"
-  },
-  "hero": {
-    "tagline": "Digital Current",
-    "headline": "We Build Brands That Flow",
-    "subheadline": "Digital marketing agency in Bratislava — web development, AI-driven SEO, and social media management that drives real growth.",
-    "cta": "Start Your Journey",
-    "ctaSecondary": "View Our Work",
-    "scrollHint": "Scroll to explore"
-  },
-  "services": {
-    "title": "What We Do",
-    "subtitle": "From concept to conversion — end-to-end digital services built for growth.",
-    "web": {
-      "title": "Web Development",
-      "description": "High-performance websites and web applications built with cutting-edge technology. Next.js, headless CMS, lightning-fast load times.",
-      "items": ["Custom Web Apps", "E-commerce", "Headless CMS", "Performance Optimization"]
-    },
-    "social": {
-      "title": "Social Media Management",
-      "description": "Strategic content creation and community management across all platforms. Data-driven campaigns that build authentic engagement.",
-      "items": ["Content Strategy", "Community Management", "Paid Social Ads", "Analytics & Reporting"]
-    },
-    "seo": {
-      "title": "AI-Driven SEO",
-      "description": "Next-generation SEO powered by AI analysis. We optimize for search engines and AI assistants — the future of discovery.",
-      "items": ["Technical SEO", "Content Optimization", "AI Search Visibility", "Link Building"]
-    },
-    "growth": {
-      "title": "Growth Marketing",
-      "description": "Full-funnel growth strategy for Bratislava and beyond. We combine data, creativity, and technology to scale your business.",
-      "items": ["Growth Strategy", "Conversion Rate Optimization", "Email Marketing", "Performance Analytics"]
-    }
-  },
-  "about": {
-    "title": "About Dunajmedia",
-    "subtitle": "Born on the banks of the Danube. Built for the digital age.",
-    "body": "Dunajmedia is a Bratislava-based digital agency combining deep local knowledge with world-class digital expertise. Like the Danube that flows through our city, we bring consistent momentum — delivering measurable results for ambitious brands.",
-    "stats": {
-      "clients": "Clients Served",
-      "projects": "Projects Completed",
-      "years": "Years of Experience",
-      "countries": "Countries Reached"
-    }
-  },
-  "blog": {
-    "title": "Insights & Trends",
-    "subtitle": "The latest in digital marketing, web technology, and growth strategy.",
-    "readMore": "Read Article",
-    "posts": [
-      {
-        "title": "AI-Driven SEO: How to Optimize for ChatGPT and Google AI",
-        "excerpt": "The search landscape is changing. Here's how to stay visible in an AI-first world.",
-        "date": "2024-07-15",
-        "tag": "SEO"
+  "pricing": {
+    "title": "Transparent Pricing",
+    "subtitle": "Premium agency-grade technology at prices built for Bratislava's small businesses.",
+    "monthly_maint": "/ month",
+    "cta": "Get Started",
+    "tiers": {
+      "tier1": {
+        "name": "Expres Start",
+        "price": "299",
+        "desc": "Perfect for barbers, cafes, and personal brands.",
+        "features": ["1-Page Scroll", "Dual Language (EN/SK)", "Integrated Booking System", "48-Hour Delivery", "Basic AI-SEO", "Fluid Animations"]
       },
-      {
-        "title": "Why Slovak Brands Need a Digital-First Strategy in 2024",
-        "excerpt": "Local markets are going global. Digital infrastructure is no longer optional.",
-        "date": "2024-07-08",
-        "tag": "Strategy"
+      "tier2": {
+        "name": "Business Pro",
+        "price": "549",
+        "desc": "The best value for mechanics, clinics, and law firms.",
+        "features": ["Up to 10 Pages", "Dual Language (EN/SK)", "Advanced Booking System", "72-Hour Delivery", "Advanced Keyword Strategy", "Custom Video Integration"]
       },
-      {
-        "title": "The Anatomy of a High-Converting Landing Page",
-        "excerpt": "We analyzed 500 landing pages. Here's what actually converts visitors.",
-        "date": "2024-07-01",
-        "tag": "Web"
+      "tier3": {
+        "name": "Agency Elite",
+        "price": "999",
+        "desc": "Full-scale digital growth for ambitious brands.",
+        "features": ["Unlimited Pages", "Multi-Language Support", "Custom API Booking", "2+ Weeks Delivery", "Professional Content SEO", "Bespoke Interactions"]
       }
-    ]
-  },
-  "contact": {
-    "title": "Start the Conversation",
-    "subtitle": "Tell us about your project. We'll respond within 24 hours.",
-    "form": {
-      "name": "Your Name",
-      "email": "Email Address",
-      "company": "Company (optional)",
-      "service": "Service Interested In",
-      "message": "Tell us about your project",
-      "submit": "Send Message",
-      "sending": "Sending...",
-      "success": "Message sent! We'll be in touch within 24 hours.",
-      "error": "Something went wrong. Please try again.",
-      "services": ["Web Development", "Social Media Management", "AI-Driven SEO", "Growth Marketing", "Full Package"]
-    },
-    "info": {
-      "location": "Bratislava, Slovakia",
-      "email": "hello@dunajmedia.sk",
-      "phone": "+421 900 000 000"
     }
-  },
-  "footer": {
-    "tagline": "Digital Current. Real Results.",
-    "rights": "All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service"
   }
 }
