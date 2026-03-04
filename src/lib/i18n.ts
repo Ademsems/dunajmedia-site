@@ -6,11 +6,12 @@ export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = 'en';
 
 export default getRequestConfig(async ({ locale }) => {
-  // Check if the locale is actually one of ours
   if (!locales.includes(locale as any)) notFound();
 
   return {
-    locale, // This is the line the error log is begging for
+    locale, // This must be here
     messages: (await import(`../messages/${locale}.json`)).default,
+    timeZone: 'Europe/Bratislava',
+    now: new Date()
   };
 });
