@@ -5,7 +5,6 @@ import ContactForm from "@/components/sections/ContactForm";
 
 export default function Home({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale);
-  
   return (
     <main className="flex min-h-screen flex-col">
       <Hero />
