@@ -12,7 +12,7 @@ const stats = [
 ];
 
 export default function About() {
-  const t = useTranslations("about");
+  const { t } = useLanguage();
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
@@ -43,7 +43,7 @@ export default function About() {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.1 }}
             >
-              {t("title")}
+              {t('about.title')}
             </motion.h2>
             <motion.p
               className="font-display text-aqua text-xl mb-6 font-medium"
