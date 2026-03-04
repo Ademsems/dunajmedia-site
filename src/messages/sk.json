@@ -1,4 +1,13 @@
 {
+  "nav": {
+    "home": "Domov",
+    "services": "Služby",
+    "pricing": "Cenník",
+    "about": "O nás",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "getStarted": "Začnite teraz"
+  },
   "pricing": {
     "title": "Transparentné Ceny",
     "subtitle": "Prémiová technológia za ceny stvorené pre bratislavské malé podniky.",
