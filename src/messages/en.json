@@ -1,4 +1,13 @@
 {
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
   "pricing": {
     "title": "Transparent Pricing",
     "subtitle": "Premium agency-grade technology at prices built for Bratislava's small businesses.",
