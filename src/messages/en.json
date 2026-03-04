@@ -8,30 +8,105 @@
     "contact": "Contact",
     "getStarted": "Get Started"
   },
+  "hero": {
+    "headline": "Modern Digital Agency For Your Business",
+    "tagline": "Dunajmedia Agency",
+    "subheadline": "We build premium websites and marketing strategies for Bratislava's growing brands.",
+    "cta": "Start Now",
+    "ctaSecondary": "Our Services",
+    "scrollHint": "Scroll Down"
+  },
+  "services": {
+    "title": "What we do",
+    "subtitle": "Comprehensive digital solutions tailored for your growth.",
+    "web": {
+      "title": "Web Development",
+      "description": "High-performance websites built with modern technology.",
+      "items": ["Custom Design", "Mobile Optimization", "Speed Performance"]
+    },
+    "social": {
+      "title": "Social Media",
+      "description": "Managing your presence on all major platforms.",
+      "items": ["Content Creation", "Ad Campaigns", "Engagement"]
+    },
+    "seo": {
+      "title": "SEO & AI",
+      "description": "Getting you to the top of search results.",
+      "items": ["Keyword Research", "AI Content", "Analytics"]
+    },
+    "growth": {
+      "title": "Business Growth",
+      "description": "Scaling your brand through data-driven decisions.",
+      "items": ["Market Analysis", "Strategy", "Reporting"]
+    }
+  },
+  "about": {
+    "title": "Bratislava's Creative Force",
+    "subtitle": "Combining agency-grade tech with local insight.",
+    "body": "We help local businesses dominate their market with fluid animations and integrated booking systems.",
+    "stats": {
+      "clients": "Clients",
+      "projects": "Projects",
+      "years": "Years",
+      "countries": "Countries"
+    }
+  },
+  "blog": {
+    "title": "Digital Insights",
+    "subtitle": "Latest news from the world of tech and marketing.",
+    "posts": [
+      { "title": "Modern Web Design", "excerpt": "Why speed matters for your business.", "date": "2024-08-01", "tag": "Design" }
+    ],
+    "readMore": "Read More"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Let's talk about your next project.",
+    "info": {
+      "location": "Bratislava, Slovakia",
+      "email": "hello@dunajmedia.com",
+      "phone": "+421 000 000 000"
+    },
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company",
+      "service": "Select Service",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent!",
+      "error": "Error occurred.",
+      "services": ["Web Design", "Marketing", "SEO"]
+    }
+  },
   "pricing": {
     "title": "Transparent Pricing",
-    "subtitle": "Premium agency-grade technology at prices built for Bratislava's small businesses.",
-    "monthly_maint": "/ month",
+    "subtitle": "Premium agency-grade technology at fixed prices.",
     "cta": "Get Started",
     "tiers": {
       "tier1": {
         "name": "Expres Start",
         "price": "299",
-        "desc": "Perfect for barbers, cafes, and personal brands.",
-        "features": ["1-Page Scroll", "Dual Language (EN/SK)", "Integrated Booking System", "48-Hour Delivery", "Basic AI-SEO", "Fluid Animations"]
+        "desc": "Perfect for barbers and cafes.",
+        "features": ["1-Page", "Booking System", "AI-SEO"]
       },
       "tier2": {
         "name": "Business Pro",
         "price": "549",
-        "desc": "The best value for mechanics, clinics, and law firms.",
-        "features": ["Up to 10 Pages", "Dual Language (EN/SK)", "Advanced Booking System", "72-Hour Delivery", "Advanced Keyword Strategy", "Custom Video Integration"]
+        "desc": "Best value for law firms.",
+        "features": ["10 Pages", "Advanced Booking", "Analytics"]
       },
       "tier3": {
         "name": "Agency Elite",
         "price": "999",
-        "desc": "Full-scale digital growth for ambitious brands.",
-        "features": ["Unlimited Pages", "Multi-Language Support", "Custom API Booking", "2+ Weeks Delivery", "Professional Content SEO", "Bespoke Interactions"]
+        "desc": "Full scale digital growth.",
+        "features": ["Unlimited Pages", "Custom API", "SEO Strategy"]
       }
     }
+  },
+  "footer": {
+    "tagline": "Flowing with energy, precision, and momentum.",
+    "rights": "All rights reserved."
   }
 }
