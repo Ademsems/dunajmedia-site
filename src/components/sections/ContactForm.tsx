@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 import { MapPin, Mail, Phone, CheckCircle2, AlertCircle, Send } from "lucide-react";
 
 export default function ContactForm() {
-  const t = useTranslations("contact");
+  const t = useTranslations('hero');
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-80px" });
 
@@ -52,7 +52,7 @@ export default function ContactForm() {
             — Get in touch —
           </span>
           <h2 className="font-display text-4xl sm:text-5xl font-bold text-slate-lightest mb-4">
-            {t("title")}
+            {t('ContactForm.title')}
           </h2>
           <p className="max-w-xl mx-auto text-slate-text text-lg">{t("subtitle")}</p>
         </motion.div>
